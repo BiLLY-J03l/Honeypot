@@ -138,12 +138,28 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
     vim /etc/kibana/kibana.yml
 
 ![image](https://github.com/user-attachments/assets/a22ad080-5cab-40e4-9026-8e6791a1250c)
+![image](https://github.com/user-attachments/assets/e1f129a7-a7f6-481d-93cf-97f58c3abad3)
+
 
 
 
 ### Logstash Configuration
+    cp /home/cowrie/cowrie/docs/elk/logstash-cowrie.conf /etc/logstash/conf.d/
+
+![image](https://github.com/user-attachments/assets/cf96d628-9fe3-40d9-9e0c-68618378fb03)
+![image](https://github.com/user-attachments/assets/fecb533c-639d-4683-b524-692872ced89a)
+
+
+
 
 ### FileBeat Configuration
+    cp /home/cowrie/cowrie/docs/elk/filebeat-cowrie.conf /etc/filebeat/filebeat.yml
+![image](https://github.com/user-attachments/assets/e1b708f4-4c61-40de-b636-18959b48daa2)
+![image](https://github.com/user-attachments/assets/bdfd5f50-3b74-438b-b169-1e70c5c137bc)
+![image](https://github.com/user-attachments/assets/3ddfab64-39ba-4a0a-93db-9c5277a83f9c)
+
+
+    
 
 ### Nginx Configuration
 
