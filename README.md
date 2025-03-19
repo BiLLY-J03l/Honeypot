@@ -135,6 +135,11 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 
 ### Kibana Configuration
+    vim /etc/kibana/kibana.yml
+
+![image](https://github.com/user-attachments/assets/a22ad080-5cab-40e4-9026-8e6791a1250c)
+
+
 
 ### Logstash Configuration
 
