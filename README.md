@@ -49,4 +49,17 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ![image](https://github.com/user-attachments/assets/68cbebfa-d2f0-4b55-828c-2ff2a29bb8b9)
 
 
+## Start the honeypot
+
+    bin/cowrie start
+    
+![image](https://github.com/user-attachments/assets/ab2ce8a9-1fd2-44aa-b4b9-439eb2619ca8)
+
+- check if it's running in the background
+
+      ps aux | grep cowrie
+
+![image](https://github.com/user-attachments/assets/bd8b4dd4-d2f0-410f-ae76-1a73471cb156)
+
+
 
