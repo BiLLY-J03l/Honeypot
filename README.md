@@ -96,7 +96,7 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ![image](https://github.com/user-attachments/assets/bfd09817-85b8-4400-a2f0-21467456188d)
 
 - How this could benefit us?
-    - the adversary might paste in his ssh public key to setup a reverse connection or type in his FTP credentials in the process of exfiltrating "sensitive" data.
+    - the adversary might replace the ssh key to take over the server or type in his FTP credentials in the process of exfiltrating "sensitive" data.
     - Congratulations, now you can sit back, relax, watch a child play around and hack the hacker.
  
 ## (Optional) Setting up ELK stack to visulaize the logs -> https://docs.cowrie.org/en/latest/elk/README.html
