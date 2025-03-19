@@ -99,10 +99,21 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
     - the adversary might paste in his ssh public key to setup a reverse connection or type in his FTP credentials in the process of exfiltrating "sensitive" data.
     - Congratulations, now you can sit back, relax, watch a child play around and hack the hacker.
  
-## (Optional) Setting up ELK stack to visulaize the logs
+## (Optional) Setting up ELK stack to visulaize the logs -> https://docs.cowrie.org/en/latest/elk/README.html
 
+    wget -qO - https://packages.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+    echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-7.x.list
+    apt-get update
 
-    
+![image](https://github.com/user-attachments/assets/a6d8395b-adeb-4203-9579-d14bef9d93c8)
+
+    sudo apt -y install apt-transport-https wget default-jre
+    sudo apt install elasticsearch logstash kibana
+    sudo apt install filebeat
+    sudo apt install nginx apache2-utils
+
+![image](https://github.com/user-attachments/assets/5da76610-78d1-4cde-b0e2-d0f1de70a6e2)
+
 
 
 
