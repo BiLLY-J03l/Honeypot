@@ -170,6 +170,17 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5 and visualizing the logs w
 ### Restart the services
     systemctl restart logstash filebeat nginx
 
+## Using Kibana
+
+- list indexes
+  
+      curl 'http://localhost:9200/_cat/indices?v'
+![image](https://github.com/user-attachments/assets/bb251ba8-2470-45e8-a186-702a789369da)
+
+- To use the GUI, navigate to the Pi IP address with the port you configured in nginx (in my case, 80)
+![image](https://github.com/user-attachments/assets/32a59903-6345-4961-ad4f-d9de17b29b28)
+![image](https://github.com/user-attachments/assets/57f07188-c3dc-4669-9240-98b65d3ec130)
+
 
 
 
