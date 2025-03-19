@@ -175,12 +175,18 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5 and visualizing the logs w
 - list indexes
   
       curl 'http://localhost:9200/_cat/indices?v'
-![image](https://github.com/user-attachments/assets/bb251ba8-2470-45e8-a186-702a789369da)
+      curl -XPUT 'localhost:9200/cowrie-logstash-REPLACEHERE/_settings' -H "Content-Type: application/json" -d '{ "index" : {"number_of_replicas" : 0 } }'
+![image](https://github.com/user-attachments/assets/e0ccf523-2e12-47d4-a861-8f8c56c44c66)
+![image](https://github.com/user-attachments/assets/f8b3c9e5-2e2f-4f42-8d83-12ee006a69df)
+
+
 
 - To use the GUI, navigate to the Pi IP address with the port you configured in nginx (in my case, 80)
 ![image](https://github.com/user-attachments/assets/32a59903-6345-4961-ad4f-d9de17b29b28)
 ![image](https://github.com/user-attachments/assets/57f07188-c3dc-4669-9240-98b65d3ec130)
-
+![image](https://github.com/user-attachments/assets/b3b46393-9351-4abe-8608-25119619ed35)
+![image](https://github.com/user-attachments/assets/7d10c67f-8a10-4a2a-ae6b-7d9c83584e8b)
+![image](https://github.com/user-attachments/assets/4d83fa36-fd17-43e8-a068-8c1a71f0a14e)
 
 
 
