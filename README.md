@@ -122,6 +122,11 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ## Configuration
 
 ### ElasticSearch Configuration
+    vim /etc/elasticsearch/elasticsearch.yml
+![image](https://github.com/user-attachments/assets/d77a5ae4-7ec5-4bb5-8b27-292a4bf8fdd3)
+
+
+
 
 ### Kibana Configuration
 
