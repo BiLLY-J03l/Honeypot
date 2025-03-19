@@ -1,4 +1,4 @@
-# Honeypot
+![image](https://github.com/user-attachments/assets/41756506-87a4-4c0f-9019-50dc6b78e054)![image](https://github.com/user-attachments/assets/2a7892d1-5474-464d-82bd-29394adbf415)# Honeypot
 Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 ## Ping the Pi
@@ -60,6 +60,37 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
       ps aux | grep cowrie
 
 ![image](https://github.com/user-attachments/assets/bd8b4dd4-d2f0-410f-ae76-1a73471cb156)
+
+
+## Now, Monitor any suspicious actions
+
+    tail -f ~/cowrie/var/log/cowrie/cowrie.log
+    
+![image](https://github.com/user-attachments/assets/94623411-a619-4c00-a7c3-85ecfb6850c8)
+
+
+## TESTING
+
+- I ran an nmap scan on the ports and it was logged by the honeypot
+
+    ![image](https://github.com/user-attachments/assets/8daa8076-0a55-4782-b961-550af632e875)
+    ![image](https://github.com/user-attachments/assets/31823a7c-ad63-4374-99bf-7a3bfb8d34be)
+
+- Then I used NSE to brute-force my way into the ssh port
+    ![image](https://github.com/user-attachments/assets/827f4ef8-6a3b-44db-ab28-d48c401b7884)
+    ![image](https://github.com/user-attachments/assets/52470edf-d8ec-4383-bd08-8d64a30854a8)
+
+- And all the attempts were logged in the cowrie.log file
+    ![image](https://github.com/user-attachments/assets/6303bb3d-af8e-4bb2-ab63-8ef358164a67)
+
+- Now, I will login as the adversary from my Ubuntu machine.
+    ![image](https://github.com/user-attachments/assets/53bbdd41-7951-452b-b16b-7cb9d35119bf)
+    ![image](https://github.com/user-attachments/assets/d04dc1e4-9196-4944-8aad-485af287a4ac)
+    ![image](https://github.com/user-attachments/assets/5fed1aa0-ad00-4cf5-9193-4d02f19e819e)
+
+
+
+
 
 
 
