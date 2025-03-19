@@ -115,6 +115,8 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ![image](https://github.com/user-attachments/assets/5da76610-78d1-4cde-b0e2-d0f1de70a6e2)
 
     sudo systemctl enable elasticsearch logstash kibana filebeat nginx
+![image](https://github.com/user-attachments/assets/3dd22f42-8239-4d2c-8590-4b2a1b5fbf11)
+
 
 
 ## Configuration
