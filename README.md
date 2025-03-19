@@ -5,7 +5,7 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 ![image](https://github.com/user-attachments/assets/bbb0ff71-507d-41f9-aed4-a65233ea498d)
 
-## SSH into your PI
+## SSH into your Pi
 
 ![image](https://github.com/user-attachments/assets/a9289eae-2002-409c-bffb-21c03b6ba073)
 
@@ -124,6 +124,12 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ### ElasticSearch Configuration
     vim /etc/elasticsearch/elasticsearch.yml
 ![image](https://github.com/user-attachments/assets/d77a5ae4-7ec5-4bb5-8b27-292a4bf8fdd3)
+![image](https://github.com/user-attachments/assets/7c238c13-b008-47e6-a10d-c9b86fe63bb9)
+![image](https://github.com/user-attachments/assets/fe0e7156-b0f9-47c8-a3bf-451f6b7975b1)
+![image](https://github.com/user-attachments/assets/840f4992-7452-43cb-b78e-0d8283cd4c7f)
+
+
+
 
 
 
