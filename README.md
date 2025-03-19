@@ -86,7 +86,9 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 - Now, I will login as the adversary from my Ubuntu machine.
     ![image](https://github.com/user-attachments/assets/53bbdd41-7951-452b-b16b-7cb9d35119bf)
     ![image](https://github.com/user-attachments/assets/d04dc1e4-9196-4944-8aad-485af287a4ac)
-    ![image](https://github.com/user-attachments/assets/5fed1aa0-ad00-4cf5-9193-4d02f19e819e)
+    ![image](https://github.com/user-attachments/assets/f80821d3-6a04-4139-8a14-e0418a71d865)
+    ![image](https://github.com/user-attachments/assets/4452ce7b-13ab-4d1e-90ef-971d568a0903)
+
 
 
 
