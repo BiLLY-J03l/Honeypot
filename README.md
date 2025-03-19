@@ -163,10 +163,12 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 ### Nginx Configuration
     htpasswd -c /etc/nginx/htpasswd.users admin_kibana
+![image](https://github.com/user-attachments/assets/1d839e6c-5363-4b6d-9b21-f6a3c34a8423)
 
 - configured the credentials as admin_kibana:kibana
 
-
+### Restart the services
+    systemctl restart logstash filebeat nginx
 
 
 
