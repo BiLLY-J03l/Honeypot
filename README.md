@@ -38,6 +38,15 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 ![image](https://github.com/user-attachments/assets/dbcf53df-8bbc-47ad-a8b4-2f961868e278)
 
     cd ~/cowrie/etc
-    nano cowrie.cfg.dist
+    cp cowrie.cfg.dist cowrie.cfg
+    nano cowrie.cfg
+
+![image](https://github.com/user-attachments/assets/b5b14a5f-3797-4724-91e3-6a78c9a990c8)
+![image](https://github.com/user-attachments/assets/9e61c68a-6d90-486b-8080-57ba226dab42)
+
+    iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-port 2222
+    iptables -t nat -A PREROUTING -p tcp --dport 23 -j REDIRECT --to-port 2223
+![image](https://github.com/user-attachments/assets/68cbebfa-d2f0-4b55-828c-2ff2a29bb8b9)
+
 
 
