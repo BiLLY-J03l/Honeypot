@@ -162,6 +162,9 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
     
 
 ### Nginx Configuration
+    htpasswd -c /etc/nginx/htpasswd.users admin_kibana
+
+- configured the credentials as admin_kibana:kibana
 
 
 
