@@ -90,7 +90,16 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
     ![image](https://github.com/user-attachments/assets/4452ce7b-13ab-4d1e-90ef-971d568a0903)
 
 
+## Analysis
 
+- On the honeypot, you can navigate to ~/cowrie/var/lib/cowrie/tty and use ~/cowrie/bin/playlog [tty_file] to replay the session with which the attacker was interacting with.
+![image](https://github.com/user-attachments/assets/bfd09817-85b8-4400-a2f0-21467456188d)
+
+- How this could benefit us?
+    - the adversary might paste in his ssh public key to setup a reverse connection or type in his FTP credentials in the process of exfiltrating "sensitive" data.
+    - Congratulations, now you can sit back, relax, watch a child play around and hack the hacker. 
+
+    
 
 
 
