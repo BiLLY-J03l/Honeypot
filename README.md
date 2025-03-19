@@ -1,5 +1,5 @@
 # Honeypot
-Setting up Honeypot using Cowrie and a Raspberry Pi 5
+Setting up Honeypot using Cowrie and a Raspberry Pi 5 and visualizing the logs with ELK stack
 
 ## Ping the Pi
 
