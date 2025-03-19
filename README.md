@@ -5,7 +5,7 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 ![image](https://github.com/user-attachments/assets/bbb0ff71-507d-41f9-aed4-a65233ea498d)
 
-## SSH into pi@raspberrypi.local
+## SSH into your PI
 
 ![image](https://github.com/user-attachments/assets/a9289eae-2002-409c-bffb-21c03b6ba073)
 
