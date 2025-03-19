@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/41756506-87a4-4c0f-9019-50dc6b78e054)![image](https://github.com/user-attachments/assets/2a7892d1-5474-464d-82bd-29394adbf415)# Honeypot
+# Honeypot
 Setting up Honeypot using Cowrie and a Raspberry Pi 5
 
 ## Ping the Pi
