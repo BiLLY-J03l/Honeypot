@@ -36,3 +36,8 @@ Setting up Honeypot using Cowrie and a Raspberry Pi 5
     python -m pip install --upgrade -r requirements.txt
     
 ![image](https://github.com/user-attachments/assets/dbcf53df-8bbc-47ad-a8b4-2f961868e278)
+
+    cd ~/cowrie/etc
+    nano cowrie.cfg.dist
+
+
